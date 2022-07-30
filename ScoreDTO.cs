@@ -1,8 +1,8 @@
 ﻿namespace RepartitionTournoi.Models
 {
-    public class Score
+    public class ScoreDTO
     {
-        public Joueur Joueur { get; set; }
+        public JoueurDTO Joueur { get; set; }
         public int Points { get; set; }
 
     }
