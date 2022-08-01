@@ -2,6 +2,7 @@
 {
     public class JoueurDTO
     {
+        public JoueurDTO() { }
         public JoueurDTO(long id, string nom, string prénom, string téléphone)
         {
             Id = id;
