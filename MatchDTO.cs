@@ -6,7 +6,8 @@
         {
             Scores = new List<ScoreDTO>();
         }
-        public int Id { get; set; }
+        public long Id { get; set; }
+        public string Nom { get; set; }
         public List<ScoreDTO> Scores { get; set; }
     }
 }
